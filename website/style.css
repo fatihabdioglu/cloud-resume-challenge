@@ -1,0 +1,82 @@
+.profile {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.social-icons{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.social{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.name{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+    margin: 0 auto;
+    color: rgb(160, 0, 0);
+    font-family:Shrikhand
+
+}
+.tittle{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    margin: 0 auto;
+    color: rgb(248, 142, 4);
+    font-family:Macondo
+}
+.gif{
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px;
+    width: 30%;
+    height:auto
+}
+.video{
+    margin-top: 0px;
+    width: 90%;
+    height: auto;
+}
+
+.counter-number{
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(3, 3, 3);
+    margin-top: 10px;
+    font-family: monospace;
+}
+
+.social {
+    display: inline-block;
+    font-size: 2rem;
+    transition: transform 0.3s ease-in-out;
+ }
+
+.social:hover {
+    transform: rotate(360deg);
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ekran yüksekliği kadar olacak */
+    overflow: hidden;
+}
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Videonun boyutunu korumak için */
+}
