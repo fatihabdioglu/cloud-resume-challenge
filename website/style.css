@@ -1,0 +1,85 @@
+.profile {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-icons{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.social{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.name{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+    margin: 0 auto;
+    color: rgb(160, 0, 0);
+    font-family:Shrikhand
+
+}
+.tittle{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    margin: 0 auto;
+    color: rgb(248, 138, 4);
+    font-family:Macondo
+}
+
+.certs{
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    height: auto;
+    margin-top: -20px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.counter-number{
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+ @media screen and (min-width: 1366px) {
+    .video{
+        margin-top: 0px;
+        width: 100%;
+        height: auto;
+    }
+    
+    
+ }
+@media screen and (min-width: 960px) and (max-width: 1365px) {
+    .video{
+        margin-top: 0px;
+        width: 100%;
+        height: auto;
+    }
+ }
+
+ .social {
+    display: inline-block;
+    font-size: 2rem;
+    transition: transform 0.3s ease-in-out;
+ }
+
+.social:hover {
+    transform: rotate(360deg);
+}
